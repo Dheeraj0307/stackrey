@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+.nav-btn-type1 {
+    @apply text-white font-medium rounded-[6px] px-3 py-2 capitalize cursor-pointer bg-[#52ad7b]
+}
+
+.nav-btn-type2 {
+    @apply text-white font-medium rounded-[6px] px-3 py-2 capitalize cursor-pointer bg-[#0087db]
+}
+
+.nav-list {
+    @apply border-b-[2px] border-b-[transparent] hover:border-b-[2px] hover:border-b-[#0087db] cursor-pointer py-[18px] hover:text-[#0087db]
+}
+
+.containerr {
+    @apply max-w-[1140px] m-auto px-4
+}
+
+.containerr2 {
+    @apply max-w-[1140px] m-auto px-24
+}
+
+.headings {
+    @apply text-[#0087db] capitalize text-3xl
+}
